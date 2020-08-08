@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
@@ -7,6 +7,11 @@ const styles = StyleSheet.create({
         backgroundColor: '#8257e5'
     },
     topBar: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between"
+    },
+    header: {
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "space-between"
